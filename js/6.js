@@ -1,6 +1,5 @@
 let contador = 0;
 let numerosPiramide = `1`;
-let piramide = ``;
 do {
     
     for (let i = 0; i < contador+1; i++) {
@@ -9,4 +8,4 @@ do {
     document.write("<br>")
     numerosPiramide++
     contador++
-} while (contador <= 30);
+} while (contador < 30);
